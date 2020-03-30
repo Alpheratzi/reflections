@@ -1,5 +1,8 @@
 git diff
-Compare two commits, printing each line that is present in one commit but not the other. It takes two arguments - the two commit ids to compare.
+Compare two commits, printing each line that is present in one commit but not the other. It takes two arguments - the two commit ids to compare. git diff considers the first argument as the "original", and the second argument as the "new" version, so additions are lines present in the second argument but not the first.
+git diff with no arguments compare the working directory with the staging area
+git diff --staged shows the difference between the files in the staging area and 
+the repository
 
 
 git clone
@@ -8,7 +11,24 @@ Make a copy of an entire Git repository, including the history, onto your own co
 
 git checkout
 Temporarily reset all files in a directory to their state at the time of a specific commit. It takes one argument - the commit ID to restore.
+git checkout master goes back to the most recent commit?
 
 
 git log
 Show the commits made in this repository, starting with the most recent. It doesn't take any arguments.
+
+git init
+Creates a repository in a specific directory
+
+git status
+Shows which files have changed since the last commit
+
+git add 
+adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit. However, git add doesn't really affect the repository in any significant way—changes are not actually recorded until you run git commit .
+
+git reset
+Remove files from the staging area
+git reset --hard discards any changes in either the working directory or the staging area
+
+git commit
+Commits the files in the staging area. git commit -m "Commit message" lets you write a message.
