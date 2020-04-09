@@ -26,3 +26,6 @@ The result is another branch with both changes. It is represented like a tree be
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Pros: Easy to update code modified by different people
+Cons: Create waste, potentially adding things which do not make sense
