@@ -25,7 +25,7 @@ Having the possibility to compare the new potential changes introduced by people
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I would create the same repository for the members of my team. It would be easier to share the code, harder to track the changes if they are a lot
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
