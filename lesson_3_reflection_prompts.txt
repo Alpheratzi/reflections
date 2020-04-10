@@ -30,4 +30,4 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I would do changes in a separate branch always, especially when collaborating, to make sure I do not break the master branch. It is more cumbersome but safer
